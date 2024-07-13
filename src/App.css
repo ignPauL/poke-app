@@ -1,0 +1,41 @@
+.App {
+    text-align: center;
+  }
+  
+  input {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pokemon-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .pokemon-card p {
+    font-size: 14px;
+    color: #777;
+  }
+  
